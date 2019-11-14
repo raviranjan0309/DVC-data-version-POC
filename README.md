@@ -111,7 +111,7 @@ $ git tag -a "v2.0" -m "model v2.0, 1000 data"
 $ git push origin HEAD:master
 ```
 
-### Step 16: Push version 1 data to storage
+### Step 16: Push version 2 data to storage
 ```bash
 $ dvc push
 ```
