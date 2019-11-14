@@ -69,6 +69,6 @@ def train_model(file_path):
 if __name__ == '__main__':
     model = train_model("data/bank.csv")
     # Export the model to a file
-    joblib.dump(model, 'model/model_v1.joblib')
+    joblib.dump(model, 'model/model_v2.joblib')
     print('Model trained and saved')
 
