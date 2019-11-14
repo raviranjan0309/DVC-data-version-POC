@@ -55,9 +55,9 @@ gs://dvc-data-versioning
 ```bash
 $ dvc remote add -d myremote gs://dvc-data-versioning
 ```
-**Set up crendentials**
+**Set up crendentials to push data and model binaries in Google Cloud Storage**
 ```bash
-$ export GOOGLE_APPLICATION_CREDENTIALS="/Users/ravranja6/ravi/CoE/Spotlight Sessions/DVC/tf_credentials_dev.json"
+$ export GOOGLE_APPLICATION_CREDENTIALS="XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 ```
 
 ### Step 7: Add version 1 data to DVC cache
