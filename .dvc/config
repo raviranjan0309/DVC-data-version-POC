@@ -1,0 +1,4 @@
+['remote "myremote"']
+url = gs://dvc-data-versioning
+[core]
+remote = myremote
